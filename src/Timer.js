@@ -101,6 +101,6 @@ function Timer() {
             </div>
         </div>
     );
-}
+}// Usage
 
 export default Timer;

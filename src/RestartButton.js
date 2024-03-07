@@ -10,5 +10,5 @@ function RestartButton(props) {
     </button>
   );
 }
-
+// Usage
 export default RestartButton;
