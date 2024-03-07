@@ -1,0 +1,62 @@
+/* App.css */
+body {
+  background-color: #397097;
+  color: white;
+  font-size: 1.7rem;
+  font-family: Arial, sans-serif;
+  display: grid; /* Use CSS Grid */
+  place-items: center; /* Center the content horizontally and vertically */
+  height: 100vh;
+  margin: 0; /* Remove default margin */
+  padding-bottom: 50px; /* Add some padding to the bottom */
+}
+
+main {
+  display: grid;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+h1 {
+  font-size: 3rem;
+  margin-top: 0;
+}
+h3 {
+  font-size: 2rem;
+  margin-top: 2rem;
+}
+
+button {
+  background-color: transparent;
+  border: 0;
+  display: inline-block;
+  position: relative;
+  width: 100px;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: transparent;
+  color: rgb(206, 11, 37);
+}
+
+button.with-text {
+  width: 100px;
+  background-color: transparent;
+  cursor: pointer;
+}
+.container {
+  display: grid;
+}
+
+.incswrk {
+  background-color: black;
+  border: 0;
+  display: inline-block;
+  position: relative;
+  width: 100px;
+  color: rgb(142, 39, 39);
+  cursor: pointer;
+}
