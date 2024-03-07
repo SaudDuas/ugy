@@ -16,7 +16,7 @@ function App() {
   return (
     <Router>
       <main>
-        <h1>Pomodoro Timer</h1>
+        <h4>Pomodoro Timer</h4>
         <div className="container">
           <Navbar />
           <SettingsContext.Provider value={{

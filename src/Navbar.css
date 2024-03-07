@@ -1,0 +1,34 @@
+/* Navbar.css */
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 50px;
+    background-color: #0c68ca;
+    overflow: hidden;
+  }
+  
+  .navbar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .navbar li {
+    float: left;
+    margin-right: 10px;
+  }
+  
+  .navbar a {
+    display: block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  .navbar a:hover {
+    background-color: #0062cc;
+    height: 50px;
+  }
+  

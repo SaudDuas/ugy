@@ -58,10 +58,10 @@ function Timer() {
         : settingsInfo.breakMinutes * 60;
 
     const percentage = Math.round(secondsLeft / totalSeconds * 100);
-
+    /* when the percentage is 100 the sound will play */
     return (
         <div>
-            <h2>{mode === 'work' ? 'Work Mode' : 'Break Mode'}</h2> {/* Display mode here */}
+            <h2>{mode === 'work' ? 'Work Hard!' : 'Take A Break :)'}</h2> {/* Display mode here */}
             <div>
                 <Gauge
                     animated={true}
@@ -80,7 +80,7 @@ function Timer() {
                 />
             </div>
 
-            <div style={{ marginTop: "12px" }}>
+            <div style={{ marginTop: "12px"}}>
                 {isPaused ? (
                     <PlayButton onClick={() => { setIsPaused(false); isPausedRef.current = false; }} />
                 ) : (
@@ -97,7 +97,7 @@ function Timer() {
                 }} />
             </div>
             <div style={{ marginTop: '20px' }}>
-                <SettingsButton onClick={() => settingsInfo.setShowSettings(true)} />
+
             </div>
         </div>
     );
